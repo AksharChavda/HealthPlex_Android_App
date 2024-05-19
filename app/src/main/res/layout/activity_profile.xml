@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/slateblue">
+<TextView
+    android:id="@+id/profieText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter Your Information below"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="26sp"
+    android:layout_marginTop="70dp"
+    />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profieText"
+        android:layout_margin="16dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (kg)"
+        android:layout_below="@id/editTextName"
+        android:layout_margin="16dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height (ft'inches)"
+        android:layout_below="@id/editTextWeight"
+        android:layout_margin="16dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/editDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth (dd-MM-yyyy)"
+        android:layout_below="@id/editTextHeight"
+        android:inputType="text"
+        android:layout_margin="16dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:maxLines="1" />
+
+    <Spinner
+        android:id="@+id/spinnerGoal"
+        style="@android:style/Widget.Material.Light.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editDob"
+
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@id/spinnerGoal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

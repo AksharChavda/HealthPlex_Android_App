@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HealthPlex" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/Darkmode</item>
+
+
+    </style>
+
+    <style name="Theme.HealthPlex" parent="Base.Theme.HealthPlex" />
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HealthPlex</string>
+    <string-array name="options">
+        <item>Weight Loss</item>
+        <item>Muscle Gain</item>
+        <item>Body Building</item>
+    </string-array>
+    <string name="fitness_channel">fitness_channel</string>
+
+</resources>

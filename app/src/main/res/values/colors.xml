@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="slateblue">#FFD700</color>
+    <color name="Darkmode">#000000</color>
+    <color name="LightMode">#000000</color>
+    <color name="Darkmodef">#ffffff</color>
+    <color name="Lightmodef">#ffffff</color>
+</resources>

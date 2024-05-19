@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "936945307784",
+    "project_id": "healthplex-27621",
+    "storage_bucket": "healthplex-27621.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936945307784:android:6f30c4cc9fe60260700f3d",
+        "android_client_info": {
+          "package_name": "com.example.healthplex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAamh2tUGsF1WKNEDO3IvkwP9sEWrGb38A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
